@@ -22,7 +22,7 @@ DEVICE_PATH := device/bq/bardockpro
 TARGET_OTA_ASSERT_DEVICE := bardock-pro,bardock_pro,bardockpro
 
 # Kernel
-TARGET_KERNEL_CONFIG := bardock_defconfig
+KERNEL_DEFCONFIG := bardock_defconfig
 
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth
